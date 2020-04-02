@@ -1,0 +1,22 @@
+{
+  "name": "krzysztofrewak/larahat",
+  "description": "Extremly simple Laravel Behat extension",
+  "type": "library",
+  "require": {
+    "php": "^7.4.4",
+    "behat/behat": "^3.6",
+    "symfony/http-foundation": "^5.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Krzysztof Rewak",
+      "email": "krzysztof.rewak@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "KrzysztofRewak\\Larahat\\": "src/"
+    }
+  }
+}
