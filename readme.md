@@ -1,3 +1,5 @@
+[![Latest Stable Version](https://poser.pugx.org/krzysztofrewak/larahat/v/stable)](https://packagist.org/packages/krzysztofrewak/larahat) [![Total Downloads](https://poser.pugx.org/krzysztofrewak/larahat/downloads)](https://packagist.org/packages/krzysztofrewak/larahat) [![License](https://poser.pugx.org/krzysztofrewak/larahat/license)](https://packagist.org/packages/krzysztofrewak/larahat)
+
 **Larahat** extension is an extremely simple way to start behaviour-driven development with **Lara**vel framework and Be**hat**. 
 
 ## Installation
