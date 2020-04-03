@@ -28,8 +28,8 @@ class BehatExtension implements Extension
     public function load(ContainerBuilder $container, array $config): void
     {
         $app = require_once $this->getBasePath($container, "/bootstrap/app.php");
-        $app->loadEnvironmentFrom(".env.behat");
-        $app->make("Illuminate\Contracts\Console\Kernel")->bootstrap();
+        $app->loadEnvironmentFrom($config["env"]);
+        $app->make(Laravel::CONSOLE_KERNEL_INTERFACE)->bootstrap();
     }
 
     public function process(ContainerBuilder $container): void

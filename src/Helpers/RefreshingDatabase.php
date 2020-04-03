@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace KrzysztofRewak\Larahat\Helpers;
 
+use KrzysztofRewak\Larahat\Laravel;
+
 trait RefreshingDatabase
 {
     /**
@@ -11,6 +13,6 @@ trait RefreshingDatabase
      */
     public function refreshDatabase(): void
     {
-        app("Illuminate\Contracts\Console\Kernel")->call("migrate");
+        app(Laravel::CONSOLE_KERNEL_INTERFACE)->call("migrate:fresh");
     }
 }
