@@ -33,6 +33,7 @@ public function requestIsSentToEndpoint(string $method, string $endpoint): void
 ```
 
 ### Helpers
+* `KrzysztofRewak\Larahat\Helpers\DisablingThrottling` trait added to your context helps with disabling throttling middleware;
 * `KrzysztofRewak\Larahat\Helpers\RefreshDatabase` trait added to your context helps with refreshing database with every scenario;
 * `KrzysztofRewak\Larahat\Helpers\SimpleRequesting` trait added to your context helps with sending requests and receiving responses from your application.
 
