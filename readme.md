@@ -15,7 +15,7 @@ Locate your Behat configuration file (usually it's a `behat.yml`) and add `Larah
 default:
   extensions:
     KrzysztofRewak\Larahat\BehatExtension:
-      - env: ".env.behat"
+      env: ".env.behat"
 ```
 
 From now, in your context files you are able to use `app()` helper for retrieving your bootstrapped Laravel application. For example, you can handle requests directly into your application like that:   
