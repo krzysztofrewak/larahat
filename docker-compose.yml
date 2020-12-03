@@ -3,6 +3,7 @@ version: "3.7"
 services:
   composer:
     container_name: larahat-composer
-    image: composer:1.10.1
+    working_dir: /application
+    image: library/composer:2.0.7
     volumes:
       - .:/application
